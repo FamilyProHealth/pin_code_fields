@@ -86,7 +86,7 @@ class PinTheme {
     List<BoxShadow>? activeBoxShadow,
     List<BoxShadow>? inActiveBoxShadow,
   }) {
-    final defaultValues = PinTheme.defaults();
+    const defaultValues =  PinTheme.defaults();
     return PinTheme.defaults(
       activeColor: activeColor ?? defaultValues.activeColor,
       activeFillColor: activeFillColor ?? defaultValues.activeFillColor,
